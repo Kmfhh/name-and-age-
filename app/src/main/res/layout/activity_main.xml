@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="2/11/2024"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="215dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:autofillHints=""
+        android:hint="enter_your_name"
+        tools:ignore="HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="225dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:autofillHints=""
+        android:hint="enter_year_of_born"
+        tools:ignore="HardcodedText,TextFields" />
+
+    <Button
+        android:layout_width="138dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="shoDetails"
+        android:text="show"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
